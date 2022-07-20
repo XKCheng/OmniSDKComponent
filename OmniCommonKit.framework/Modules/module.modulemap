@@ -1,0 +1,11 @@
+framework module OmniCommonKit {
+  umbrella header "OmniCommonKit.h"
+
+  export *
+  module * { export * }
+}
+
+module OmniCommonKit.Swift {
+    header "OmniCommonKit-Swift.h"
+    requires objc
+}

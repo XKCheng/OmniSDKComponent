@@ -1,0 +1,11 @@
+framework module OmniSDKGlobal {
+  umbrella header "OmniSDKGlobal.h"
+
+  export *
+  module * { export * }
+}
+
+module OmniSDKGlobal.Swift {
+    header "OmniSDKGlobal-Swift.h"
+    requires objc
+}
