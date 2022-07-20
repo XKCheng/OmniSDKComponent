@@ -1,0 +1,11 @@
+framework module OmniGameCenterLoginKit {
+  umbrella header "OmniGameCenterLoginKit.h"
+
+  export *
+  module * { export * }
+}
+
+module OmniGameCenterLoginKit.Swift {
+    header "OmniGameCenterLoginKit-Swift.h"
+    requires objc
+}

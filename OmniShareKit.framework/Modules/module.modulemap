@@ -1,0 +1,11 @@
+framework module OmniShareKit {
+  umbrella header "OmniShareKit.h"
+
+  export *
+  module * { export * }
+}
+
+module OmniShareKit.Swift {
+    header "OmniShareKit-Swift.h"
+    requires objc
+}

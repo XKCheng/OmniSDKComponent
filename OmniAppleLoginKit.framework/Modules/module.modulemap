@@ -1,0 +1,11 @@
+framework module OmniAppleLoginKit {
+  umbrella header "OmniAppleLoginKit.h"
+
+  export *
+  module * { export * }
+}
+
+module OmniAppleLoginKit.Swift {
+    header "OmniAppleLoginKit-Swift.h"
+    requires objc
+}

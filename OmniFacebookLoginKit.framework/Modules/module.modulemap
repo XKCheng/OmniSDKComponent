@@ -1,0 +1,11 @@
+framework module OmniFacebookLoginKit {
+  umbrella header "OmniFacebookLoginKit.h"
+
+  export *
+  module * { export * }
+}
+
+module OmniFacebookLoginKit.Swift {
+    header "OmniFacebookLoginKit-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module OmniNaverLoginKit {
+  umbrella header "OmniNaverLoginKit.h"
+
+  export *
+  module * { export * }
+}
+
+module OmniNaverLoginKit.Swift {
+    header "OmniNaverLoginKit-Swift.h"
+    requires objc
+}
