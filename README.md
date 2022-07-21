@@ -1,2 +1,2 @@
 # OmniSDKComponent
-OmniSDK组件;
+OmniSDK组件;;
