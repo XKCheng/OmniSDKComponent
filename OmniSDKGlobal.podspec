@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   s.resource = 'OmniSDKResource.bundle'
-  s.denpency = 'OmniCommonKit'
+  s.dependency = 'OmniCommonKit'
 end
